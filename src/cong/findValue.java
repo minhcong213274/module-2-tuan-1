@@ -9,7 +9,7 @@ public class findValue {
         String name = scanner.nextLine();
         for (int i =0;i<students.length;i++){
             if(students[i].equalsIgnoreCase(name)) {
-                System.out.println(i);
+                System.out.println("student index is "+i);
                 return;
             }
         }System.out.println("cannot find studen");
